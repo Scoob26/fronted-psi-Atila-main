@@ -1,0 +1,62 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="~/img/favicon.ico" type="image/x-ico">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- bibliotecas -->
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/lib/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="~/lib/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="~/lib/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/css/login.css">
+
+    <title>Login Page</title>
+</head>
+<body>
+
+
+    <div>
+        <main>
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-------------------- Footer Area (Start) -------------------->
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+ 
+    <script>
+
+        function logout() {
+            // Envia a requisição AJAX para o servidor
+            $.ajax({
+                url: '/Usuario/Logout', // URL do método Logout no controller
+                type: 'POST', // Tipo de requisição (POST)
+                success: function (response) {
+                    // Se a requisição for bem-sucedida
+                    if (response.success) {
+                        // Redireciona para a página de login ou outra página conforme desejado
+                        window.location.href = '/Home/Index';
+                    } else {
+                        // Se houver uma mensagem de erro, exibe
+                        alert('Erro ao realizar o logout: ' + (response.message || 'Erro desconhecido'));
+                    }
+                },
+                error: function (xhr, status, error) {
+                    // Se ocorrer algum erro na requisição AJAX
+                    alert('Erro ao processar a solicitação de logout. Detalhes: ' + error);
+                }
+            });
+        }
+    </script>
+</body>
+</html>

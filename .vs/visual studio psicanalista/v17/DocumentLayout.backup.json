@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aluno Noite\\Documents\\fronted-psi-Atila-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96082107-E042-447C-83C3-B04BC2E64694}|visual studio psicanalista\\visual studio psicanalista.csproj|c:\\users\\aluno noite\\documents\\fronted-psi-atila-main\\visual studio psicanalista\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96082107-E042-447C-83C3-B04BC2E64694}|visual studio psicanalista\\visual studio psicanalista.csproj|solutionrelative:visual studio psicanalista\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 335,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno Noite\\Documents\\fronted-psi-Atila-main\\visual studio psicanalista\\Views\\DashBoard\\Index.cshtml",
+              "RelativeDocumentMoniker": "visual studio psicanalista\\Views\\DashBoard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aluno Noite\\Documents\\fronted-psi-Atila-main\\visual studio psicanalista\\Views\\DashBoard\\Index.cshtml",
+              "RelativeToolTip": "visual studio psicanalista\\Views\\DashBoard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T12:31:55.996Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

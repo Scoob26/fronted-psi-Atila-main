@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "visual studio psicanalista", "visual studio psicanalista\visual studio psicanalista.csproj", "{96082107-E042-447C-83C3-B04BC2E64694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteAndrezaMeloPsicanalista", "TesteAndrezaMeloPsicanalista\TesteAndrezaMeloPsicanalista.csproj", "{5159C895-F937-4FA8-B513-101416CF740A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96082107-E042-447C-83C3-B04BC2E64694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96082107-E042-447C-83C3-B04BC2E64694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96082107-E042-447C-83C3-B04BC2E64694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96082107-E042-447C-83C3-B04BC2E64694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5159C895-F937-4FA8-B513-101416CF740A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5159C895-F937-4FA8-B513-101416CF740A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5159C895-F937-4FA8-B513-101416CF740A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5159C895-F937-4FA8-B513-101416CF740A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB32F936-4212-43CD-AA79-DDB77C02FE4A}
+	EndGlobalSection
+EndGlobal
